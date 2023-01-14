@@ -1,0 +1,156 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: 'Helvetica1';
+    src: url('Fonts/HelveticaLTStd-BoldObl.otf');
+}
+
+@font-face {
+    font-family: Helvetica2;
+    src: url("Fonts/HelveticaLTStd-Bold.otf");
+}
+
+@font-face {
+    font-family: Helvetica3;
+    src: url("Fonts/HelveticaLTStd-Light.otf");
+}
+
+@font-face {
+    font-family: Helvetica4;
+    src: url("Fonts/HelveticaWorld-Italic.ttf");
+}
+
+header a {
+    text-decoration: none;
+
+}
+
+header a:visited {
+    color: black;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-image: linear-gradient(to top, rgb(255, 255, 80), rgb(255, 194, 81));
+    font-family: Helvetica;
+}
+main {
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgb(46, 46, 46);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 1000px;
+    padding: 20px;
+    max-width: fit-content;
+    min-width: 300px;
+}
+
+header {
+    text-align: center;
+    min-height: 100px;
+    padding-top: 40px;
+    background-image: linear-gradient(to bottom, rgb(255, 216, 108), rgb(241, 230, 130) );
+}
+
+header > h1 {
+    max-width: 600px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+nav {
+    padding: 10px;
+    background-color: rgb(241, 230, 130);
+    box-shadow: 10px 10px 9px rgb(46, 46, 46);
+}
+
+nav > a {
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+
+}
+
+nav > a:hover {
+    color: rgb(241, 230, 130);
+    background-color: coral;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    font-family: Helvetica1;
+}
+main h2 {
+    font-size: 28px;
+    font-family: Helvetica2;
+}
+main p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: Helvetica3;
+    margin: 15px 0px;
+}
+
+main > div#video {
+    background-color: rgb(241, 230, 130);
+    margin: 0px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div#video > video {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+.cit {
+    font-family: Helvetica4;
+    font-size: 20px;
+}
+dt {
+    font-size: 30px;
+    font-family: Helvetica2;
+    
+}
+dd {
+    text-align: justify;
+    font-size: 20px;
+    font-family: Helvetica3;
+    margin: 20px;
+}
+ol {
+    text-align: justify;
+    font-size: 24px;
+    font-family: Helvetica3;
+    margin: 15px;
+}
+ul {
+    text-align: justify;
+    font-size: 20px;
+    font-family: Helvetica3;
+    margin: 15px;
+}
+
+
+
+
+
+
+
