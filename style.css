@@ -75,11 +75,19 @@ header > h1 {
     padding-right: 10px;
     padding-left: 10px;
 }
-
+span#menu {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+span#menu:hover {
+    background-color: rgb(194, 181, 66);
+}
 nav {
     padding: 10px;
     background-color: rgb(241, 230, 130);
     box-shadow: 10px 10px 9px rgb(46, 46, 46);
+    display: none;
 }
 
 nav > a {
